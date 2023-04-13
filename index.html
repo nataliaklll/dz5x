@@ -1,0 +1,69 @@
+<html>
+<head>
+	<title>Registration</title>
+	<style>
+		body {
+			background-color:blueviolet;
+			margin: 100;
+            padding: 10px 320px;
+		}
+		form {
+			background-color:#008CBA;
+			border-radius: 5px;
+			padding: 20px;
+		}
+		h1 {
+			text-align: center;
+		}
+		label {
+			margin-bottom: 10px;
+		}
+		input[type="text"], textarea {
+			border-radius: 5px;
+			font-size: 16px;
+			padding: 10px 20px 10px 10px;
+			width: 100%;
+		}
+		input[type="submit"] {
+			background-color: #d30889;
+			border-radius: 5px;
+			color: #fff;
+			font-size: 16px;
+            margin: 10px 40px 10px 20px;
+			padding: 10px 40px 10px 20px;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h1>Registration</h1>
+		<label for="name">Full Name</label>
+		    <input type="text" id="name" name="name" placeholder="Full Name" required>
+
+		<label for="email">Username</label>
+		    <input type="text" id="username" name="username" placeholder="Username" required>
+
+        <label for="email">Email</label>
+		    <input type="text" id="email" name="email" placeholder="Email" required>
+
+		<label for="number">Phone Number</label>
+		    <input type="text" id="number" name="number" placeholder="Number" required>
+
+
+        <label for="school">Gender</label><br>
+
+            <input type="radio" id="male" name="Gender" value="male" required>
+        <label for="male">Male</label><br>
+          
+            <input type="radio" id="female" name="Gender" value="female" required>
+        <label for="female">Female</label><br>
+          
+            <input type="radio" id="prefer not to say" name="Gender" value="prefer not to say" required>
+        <label for="prefer not to say">Prefer not to say</label><br>
+          </form>
+
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>
